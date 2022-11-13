@@ -35,6 +35,7 @@ public class DropDownDemo {
         // loops/
         for (int i = 0; i <options.size() ; i++) {
           WebElement option=  options.get(i);
+            // System.out.println(option.getText());
             String text= option.getText();
             if(text.equalsIgnoreCase("Friday")){
                 select.selectByIndex(i);
@@ -42,7 +43,7 @@ public class DropDownDemo {
 
 
 
-           // System.out.println(option.getText());
+
 
 
         }
